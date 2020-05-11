@@ -11,8 +11,9 @@ public class Main {
         System.out.println(o.draw());
         System.out.println(A.draw());
 
-        shape u2 = sf.createShape(ShapeType.Rectangle);
-        
-        System.out.println(u2.draw());
+        //Test Singleton
+        // shape u2 = sf.createShape(ShapeType.Rectangle);
+        // u2.setBrush("abc");
+        // System.out.println(u2.draw());
     }
 }
